@@ -1,16 +1,19 @@
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
     color: rgb(44, 23, 9);
 }
 div {
     padding:50px;
 }
 h1 {
-    color:cornflowerblue;
+    color:rgb(46, 46, 46);
     font-family: 'Ubuntu', sans-serif;
+    
     font-size: 50px;
+    padding-left: 50px;
 }
 
 h2 {
-    color: chocolate;
+    color: rgb(204, 0, 0);
 }
