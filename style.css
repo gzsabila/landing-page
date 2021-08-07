@@ -1,19 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Ubuntu:wght@700&display=swap');
+
 body {
-    font-family: 'Quicksand', sans-serif;
-    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    /*font-family: 'Quicksand', sans-serif;*/
     color: rgb(44, 23, 9);
+    text-align: center | justify;
 }
+
+/* Style the header */
+header {
+    background-color:#e17055;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    color:rgb(46, 46, 46)
+    }
+footer {
+    background-color:#e17055;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: auto;
+    font-weight:auto;
+    color:#2d3436;
+}
+
+.rcorners {
+    border-radius: 25px;
+    /*border: 2px solid #73AD21;*/
+    padding: auto; 
+    width: auto;
+    height: auto;  
+}
+/* Style the content */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
 div {
     padding:50px;
+    box-shadow: #2d34361e;
 }
 h1 {
     color:rgb(46, 46, 46);
-    font-family: 'Ubuntu', sans-serif;
-    
     font-size: 50px;
-    padding-left: 50px;
 }
 
+/* Heading profile, exp */
 h2 {
-    color: rgb(204, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(0, 139, 109);
+}
+
+    /* freelance */
+h3 {
+    font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    color: rgb(46, 46, 46);
 }
