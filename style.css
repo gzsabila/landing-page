@@ -3,13 +3,13 @@
 body {
     font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
     /*font-family: 'Quicksand', sans-serif;*/
-    color: rgb(44, 23, 9);
+    color: rgb(41, 37, 34);
     text-align: center justify;
 }
 
-/* Style the header */
+/* style header and footer*/
 header {
-    background-color:#e17055;
+    background-color:#e4c4df;
     padding: 30px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
@@ -17,7 +17,7 @@ header {
     color:rgb(46, 46, 46)
     }
 footer {
-    background-color:#cecece;
+    background-color:#e4c4df;
     padding: 20px;
     text-align: center;
     font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -51,32 +51,49 @@ footer {
 img {  
     border-radius: 50%;
 }
-.bigimg {
-    max-width:100%;height:auto;
-
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
+/*style paragraph*/
 div {
-    padding:20px;
-    padding-left: 50px;
-    box-shadow: 5px 5px 5px #2d34361e;
+    text-align: justify;
+    text-justify: inter-word;
+    padding:50px;
+    padding-bottom:30px;
+    /*box-shadow: 5px 5px 5px #2d34361e;*/
     margin: 15px;
 }
+
 h1 {
-    color:rgb(46, 46, 46);
+    color:rgb(58, 58, 58);
     font-size: 50px;
 }
 
-/* profile, exp */
+/* about me, exp */
 h2 {
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(0, 139, 109);
+    color: orange;
 }
 
-/* freelance */
+/* mini desc */
 h3 {
     font-family: 'Segoe UI', 'Frutiger', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif;
     font-size: large;
     font-weight: lighter;
     color: rgb(46, 46, 46);
+}
+
+/*style link*/
+a:link {
+    color:indigo;
+}
+a:visited {
+    color: red;
+}
+a:active {
+    color:dodgerblue;
 }
